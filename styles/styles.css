@@ -33,21 +33,30 @@ body {
     color: #f9faf8;
 }
 
+.headerbox {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 70px;
+    padding-bottom: 80px;
+}
+
 .info {
     display: flex;
-    flex-direction:row;
-    justify-content: center;
+    gap: 20px;
     align-items: center;
+    justify-content: center;
     background-color: #1F2937;
     color: white;
-    flex: 1;
+    width: 900px;
+    padding: 10px;
 }
 
 .text {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin: 10%;
+    justify-content: flex-start;
+    gap: 15px;
     max-width: 400px;
 }
 
@@ -60,7 +69,6 @@ body {
     background-color: #3882F6;
     color: white;
     padding: 10px 10px;
-    margin-top: 10px;
     border: none;
     cursor: pointer;
     width: 100px;
@@ -76,9 +84,8 @@ body {
 }
 
 .image1 {
-    max-width: 400px;
+    max-width: 300px;
     flex: 1;
-    margin: 50px;
     border: 5px white solid;
     border-radius: 8px;
 }
@@ -86,6 +93,7 @@ body {
 .gallery {
     display: flex;
     flex-direction: column;
+    padding: 15px;
 }
 
 .gallerytitle {
